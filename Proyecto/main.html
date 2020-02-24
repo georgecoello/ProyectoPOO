@@ -1,23 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto POO</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>HonduShoes</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">HonduShoes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+            <a class="btn btn-primary" href="html/empresa.html" role="button" >Empresa</a>
+            <a class="btn btn-primary" href="html/cliente.html" role="button">Cliente</a>
+            <a class="btn btn-primary" href="html/superusuario.html" role="button" >Súper Usuario</a>
+          </form>
+        </div>
+      </nav>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 p-4" id="img">
+                        <img src="img/logo-grande1.png" alt="logo de la empresa" >
+                    </div>
+                    <div class="col-6 px-5" id="parrafo">
+                        <p>
+                            <h3>HonduShoes</h3>
+                            En nuestra tienda podrás tener la mejor calidad de los zapatos de las mejores marcas con las mejores ofertas del mercado como ser: 
+                            <li>Adidas</li>
+                            <li>Nike</li>
+                            <li>Puma</li>
+                            <li>Reebok</li>
+                            <li>Fila</li>
+                            <li>Saucony</li>
+                            <br>
+                            Ingresa y Registrate para tener las mejores ofertas de la temporada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 
-</head>
-<body>
-    <div>
-        <img src="img/nike7.png" alt="logo de nike" >
-        <section id="user"> 
-        <h1>Tipo de usuario</h1>
-        <a class="btn btn-primary" href="empresa.html" role="button">Empresa</a>
-        <a class="btn btn-primary" href="cliente.html" role="button">Cliente</a>
-        <a class="btn btn-primary" href="superusuario.html" role="button">Súper Usuario</a>
-        </section>
-    </div>
-    <script src="js/controlador.js"></script>
-</body>
 </html>
