@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa</title>
+    <title>Cliente</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <style>
-        #loginUser{
-            color:blue;
-            border: 3px blue solid;
-            border-radius:5px;
-            width: 350px; 
-            height: 300px;
-            padding: 20px; 
-            margin-left: auto;
-            margin-right: auto;
+        .bg-dark{
+            background-color: #3d2a81!important;
+        }
+        .nav-link{
+            color:white;
+            border-color: 5px white solid;
+            margin-left:130px;
+            
+        }
+        .dropdown-menu{
+            margin-left:130px;
+            color:white;
         }
     </style>
 </head>
 <body>
-    <img src="img/nike7.png" alt="logo de nike" srcset="">
-    <div>
-        <section id="loginUser">
-            <h1>Cliente</h1>
-            <input class ="form-control" type="text" placeholder="Nombre del usuario" style="margin-bottom: 15px;">
-            <input class ="form-control" type="password" placeholder="Password">
-        </section>
-    </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#" style="font-size:25px;">HonduShoes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cliente</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Ingresar</a>
+                <a class="dropdown-item" href="#">Registrarse</a>
+              </div>
+            </li>
+          </ul>  
+        </div>  
+        </nav>
+      <main role="main">
+          <div class="jumbotron">
+              <div class="container">
+              </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

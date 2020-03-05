@@ -12,17 +12,37 @@
             border: 3px blue solid;
             border-radius:5px;
             width: 500px; 
-            height: 700px;
+            height: 900px;
             padding: 20px; 
             margin-left: auto;
             margin-right: auto;
+        }
+        #img{
+            width:40px;
+        }
+
+        .btn-primary{
+            background-color: greenyellow;
+            color: white;
+            padding:10px;
+            width:100%;
+            border-radius:15px;
+            font-size:30px;
+            border: 2px white solid; 
+            text-shadow: 2px 2px 2px rgb(34, 30, 30);
+            transition: all .3s ease-in-out;
+        }
+
+        .btn-primary:hover{
+            background-color: yellowgreen;
+            border:2px white solid;
         }
     </style>
 </head>
 <body>
     <div>
         <section id="loginEmpresa">
-            <h1> Login Empresa</h1>
+            <h1> Regitro Empresa</h1>
             <table class="table table-striped table-hover" style="width: 100%;">
                 <tr>
                     <td>Nombre</td>
@@ -51,9 +71,32 @@
                     <td><input class="form-control" type="text" placeholder="Latitud"></td>
                     <td><input class="form-control" type="text" placeholder="Longitud"></td>
                 </tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                    <td>Banner</td>
+                    <td colspan="2">
+                        <input class="form-control" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Logotipo</td>
+                    <td colspan="2">
+                        <input class="form-control" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td><img id ="img" src="img/fb.jpg"></td>
+                    <td colspan="2"><input class="form-control" type="text" placeholder="Facebook"></td>
+                    <tr>
+                        <td><img id ="img" src="img/inst.png"></td>
+                        <td colspan="2"><input class="form-control" type="text" placeholder="Instagram"></td>
+                    </tr>
+                    <tr>
+                        <td><img id ="img" src="img/twt.png"></td>
+                        <td colspan="2"><input class="form-control" type="text" placeholder="Twitter"></td>
+                    </tr>
+                </tr>
             </table>
+            <a class="btn btn-primary" href="#" role="button">Registrarse</a>
         </section>
     </div>
 </body>

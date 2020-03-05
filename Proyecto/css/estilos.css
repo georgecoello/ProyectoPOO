@@ -5,6 +5,7 @@
 .navbar{
     padding-left: 120px;
     padding-right: 120px;
+    font-size:20px;
 }
 
 .btn-primary{
@@ -12,6 +13,7 @@
     color: white;
     padding-left: 85px;
     padding-right: 85px;
+    margin-bottom: 15px;
     margin-left: 15px;
     margin-right: 15px; 
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.788);
@@ -50,4 +52,21 @@ h3{
     #img{
         display:none;
     }
-  }
+
+}
+
+.nav-link{
+    color:white;
+    border-color: 5px white solid;
+    margin-left:130px;
+
+}
+
+.dropdown-menu{
+    margin-left:130px;
+    color:white;
+}
+
+.dropdown-item{
+    font-weight:bold;
+}
