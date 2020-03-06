@@ -70,3 +70,9 @@ h3{
 .dropdown-item{
     font-weight:bold;
 }
+
+#footer{
+    color: #4e17ce;
+    padding: 10px; 
+    margin:15px;
+}
